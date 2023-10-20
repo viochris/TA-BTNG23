@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhotoArt</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg bg-dark text-white fixed-top" data-bs-theme="dark">
+      <div class="container">
+        <a
+          class="navbar-brand icon-link-hover text-primary fs-3 fw-bold"
+          href=""
+          title="MyPortfolio By Silvio"
+          ><h5 class="fw-bold text-danger text-danger-1">
+            Photo<span class="fw-light">Art</span>
+          </h5></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-2" aria-current="page" href="#"
+                ><i class="fa-solid fa-house me-1"></i>Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-2"
+                href=""
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-photo-film me-1"></i>Gallery
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://unsplash.com/">Nature</a></li>
+                <li><a class="dropdown-item" href="https://unsplash.com/">Portrait</a></li>
+                <li><a class="dropdown-item" href="https://unsplash.com/">People</a></li>
+                <li><a class="dropdown-item" href="https://unsplash.com/">Architecture</a></li>
+                <li><a class="dropdown-item" href="https://unsplash.com/">Animals</a></li>
+                <li><a class="dropdown-item" href="https://unsplash.com/">Sport</a></li>
+                <li><a class="dropdown-item" href="https://unsplash.com/">Travel</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link ms-lg-3 text-2"
+                aria-current="page"
+                href="services.html"
+                ><i class="fa-solid fa-hand-holding-hand me-1"></i>Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-lg-3 text-2" aria-current="page" href="about1.html"
+                ><i class="fa-solid fa-user me-1"></i>About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link ms-lg-3 text-2"
+                aria-current="page"
+                href="contact.html"
+                ><i class="fa-solid fa-phone me-1 text-2"></i>Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+
+    <section class="bg-dark" data-bs-theme="dark">
+      <div class="container py-5">
+        <div class="row align-items-center" style="min-height: calc(100vh - 66px);">
+          <div class="col-lg-6 mx-auto">
+              <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search for...">
+                  <span class="input-group-btn">
+                      <button class="btn btn-secondary" type="button">Search</button>
+                  </span>
+              </div>
+          </div>
+      </div>
+      </div>
+    </section>
+
+
+
+    <!-- Photo start -->
+    <section id="home" class="vh-90 bg-dark text-white pb-5">
+      <div class="">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide pt-4"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="5"
+              aria-label="Slide 6"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="6"
+              aria-label="Slide 7"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href=""
+                ><img
+                  src="./lingkungan.jpg"
+                  class="d-block w-75 text-center mx-auto img-opacity-1"
+                  alt="..."
+              /></a>
+              <div class="carousel-caption d-sm-block">
+                <h1>Nature</h1>
+                <a href="https://unsplash.com/"
+                  ><button type="button" class="btn text-white border-1 border">
+                    More Photos
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href=""
+                ><img
+                  src="./portrait 1.jpg"
+                  class="d-block w-75 text-center mx-auto img-opacity-1"
+                  alt="..."
+              /></a>
+              <div class="carousel-caption d-sm-block">
+                <h1>Portrarit</h1>
+                <a href="https://unsplash.com/"
+                  ><button type="button" class="btn text-white border-1 border">
+                    More Photos
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href=""
+                ><img
+                  src="./people1.jpg"
+                  class="d-block w-75 text-center mx-auto img-opacity-1"
+                  alt="..."
+              /></a>
+              <div class="carousel-caption d-sm-block">
+                <h1>People</h1>
+                <a href="https://unsplash.com/"
+                  ><button type="button" class="btn text-white border-1 border">
+                    More Photos
+                  </button></a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href=""
+                ><img
+                  src="./architecture.jpg"
+                  class="d-block w-75 text-center mx-auto img-opacity-1"
+                  alt="..."
+              /></a>
+              <div class="carousel-caption d-sm-block">
+                <h1>Architecture</h1>
+                <a href="https://unsplash.com/"
+                  ><button type="button" class="btn text-white border-1 border">
+                    More Photos
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="carousel-item">
+                <a href=""
+                  ><img
+                    src="./animal.jpg"
+                    class="d-block w-75 text-center mx-auto img-opacity-1"
+                    alt="..."
+                /></a>
+                <div class="carousel-caption d-sm-block">
+                  <h1>Animal</h1>
+                  <a href="https://unsplash.com/"
+                    ><button type="button" class="btn text-white border-1 border">
+                      More Photos
+                    </button></a
+                  >
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href=""
+                  ><img
+                    src="./sport.jpg"
+                    class="d-block w-75 text-center mx-auto img-opacity-1"
+                    alt="..."
+                /></a>
+                <div class="carousel-caption d-sm-block">
+                  <h1>Sport</h1>
+                  <a href="https://unsplash.com/"
+                    ><button type="button" class="btn text-white border-1 border">
+                      More Photos
+                    </button></a
+                  >
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href=""
+                  ><img
+                    src="./travel1.jpg"
+                    class="d-block w-75 text-center mx-auto img-opacity-1"
+                    alt="..."
+                /></a>
+                <div class="carousel-caption d-sm-block">
+                  <h1>Travel</h1>
+                  <a href="https://unsplash.com/"
+                    ><button type="button" class="btn text-white border-1 border">
+                      More Photos
+                    </button></a
+                  >
+                </div>
+              </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Photo End -->
+
+    <footer class="bg-dark text-white text-center p-2">
+      <div class="container">
+        <div class="container-fluid">
+          <div class="social-icons py-2 fs-3">
+              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook px-2"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram px-2"></i></a>
+              <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter px-2"></i></i></a>
+              <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin px-2"></i></a>
+              <a href="https://www.github.com/" target="_blank"><i class="fa-brands fa-github px-2"></i></a>
+          </div>
+      </div>
+      <hr>
+        Created By Silvio
+      </div>
+    </footer>
+
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

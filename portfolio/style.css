@@ -1,0 +1,87 @@
+.text-light:hover{
+    color: aqua !important;
+    font-weight: bold;
+}
+
+.text-danger-1{
+    color: #ffffff;
+    text-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px;
+    
+}
+
+.text-info-1{
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 55px #49ff18, 0 0 75px #49ff18;
+}
+
+.text-info-2{
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 55px #49ff18, 0 0 75px #49ff18;
+}
+
+.bg{
+    background-color: rgba(0, 0, 0, 0.906) !important;
+}
+
+.bg-btn:hover{
+    background: rgb(0,0,140);
+    background: linear-gradient(168deg, rgba(0,0,140,1) 0%, rgba(36,159,219,1) 35%, rgba(208,235,241,0.9884746134782038) 100%);
+    color:  #ffffff;
+    background-color: #ffffff;
+    text-shadow: #969696 1px 3px 0, #aba8a8 1px 13px 5px;
+    font-weight: bold;
+}
+
+.bg-danger{
+    background-color: aquamarine !important;
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.bg-danger:hover{
+    background: rgb(63,251,130);
+background: radial-gradient(circle, rgba(63,251,130,1) 0%, rgba(70,241,252,1) 100%) !important;
+    height: 40px;
+    width: 100px;
+    color: white !important;
+    text-align: center;
+}
+
+.img-opacity:hover{
+    opacity: 0.5 !important;
+}
+
+.img-opacity-1:hover{
+    opacity: 0.7 !important;
+}
+
+.btn-hov:hover{
+    background: rgb(189,224,27);
+    background: radial-gradient(circle, rgba(189,224,27,1) 0%, rgba(70,252,211,1) 100%);
+}
+
+.bg-gradient{
+    background-color: rgb(238, 242, 17);
+}
+
+.bg-gradient:hover{
+    color: chartreuse;
+    background: rgb(255,79,156) !important;
+    background: radial-gradient(circle, rgba(255,79,156,1) 0%, rgba(148,187,233,1) 100%) !important;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.text-2:hover{
+    color: aqua !important;
+    font-weight: bold;
+}
+
+.border-1:hover{
+    color: black !important;
+    background-color: white;
+}
+
+
