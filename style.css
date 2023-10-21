@@ -37,6 +37,11 @@
     color: black !important;
     text-decoration: none !important;
 }
+.bg-info-1:hover{
+    background: rgb(63,251,130);
+background: radial-gradient(circle, rgba(63,251,130,1) 0%, rgba(70,241,252,1) 100%) !important;
+}
+
 
 .bg-danger:hover{
     background: rgb(63,251,130);
